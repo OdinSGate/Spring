@@ -1,1 +1,1 @@
-readme.txt
+Задания по Spring Core.
