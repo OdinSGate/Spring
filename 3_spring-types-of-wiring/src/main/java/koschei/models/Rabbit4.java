@@ -16,5 +16,4 @@ public class Rabbit4 {
     public String toString() {
         return ", в зайце утка " + duck.toString();
     }
-    // Связал зайца с уткой через сеттер утки и @Autowired.
 }

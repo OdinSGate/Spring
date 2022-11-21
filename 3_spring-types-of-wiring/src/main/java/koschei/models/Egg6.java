@@ -1,10 +1,7 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Egg6 {
+
     private Needle7 needle;
 
     public Egg6(Needle7 needle) {
@@ -15,5 +12,4 @@ public class Egg6 {
     public String toString() {
         return ", в яйце иголка " + needle.toString();
     }
-    // Сделал бин из яйца, вложил в него бин-иголку как аргумент в конфиге.
 }
