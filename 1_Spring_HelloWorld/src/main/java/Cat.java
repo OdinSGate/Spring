@@ -4,7 +4,8 @@ public class Cat {
     public void setVoice(String voice) {
         this.voice = voice;
     }
-    public String getVoice(){
+
+    public String getVoice() {
         return voice;
     }
 }
